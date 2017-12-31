@@ -27,7 +27,7 @@ module H5cr
 #             param_dset[:] = val
 
   def self.save(filename : String)
-    fid = LibHdf5.fcreate(filename, 2, 0, 0)
+    fid = LibHdf5.fcreate(filename, 0x0002, 0, 0)
     LibHdf5.fflush(fid, LibHdf5::FScopeT::FScopeGlobal)
     LibHdf5.fclose(fid)
   end
