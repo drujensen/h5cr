@@ -89,7 +89,7 @@ module H5cr
 #     weight_value_tuples += zip(symbolic_weights, weight_values)
 # K.batch_set_value(weight_value_tuples)
   
-  def self.load(filename : String, network)
+  def self.load(filename : String, network : SHAInet::Network)
     fid = LibHdf5.fopen(filename, 0, 0)
     LibHdf5.fclose(fid)
   end

@@ -10,5 +10,4 @@ describe H5cr do
     network = SHAInet::Network.new
     H5cr.load("./examples/model.h5", network)    
   end
-
 end
