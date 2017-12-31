@@ -1,3 +1,4 @@
+require "shainet"
 require "./h5cr/*"
 
 module H5cr
@@ -26,7 +27,7 @@ module H5cr
 #         else:
 #             param_dset[:] = val
 
-  def self.save(filename : String)
+  def self.save(filename : String, network : SHAInet::Network)
     fid = LibHdf5.fcreate(filename, 0x0002, 0, 0)
     LibHdf5.fflush(fid, LibHdf5::FScopeT::FScopeGlobal)
     LibHdf5.fclose(fid)
@@ -88,11 +89,8 @@ module H5cr
 #     weight_value_tuples += zip(symbolic_weights, weight_values)
 # K.batch_set_value(weight_value_tuples)
   
-  def self.load(filename : String)
+  def self.load(filename : String, network)
     fid = LibHdf5.fopen(filename, 0, 0)
-    LibHdf5.fclose(fid) 
+    LibHdf5.fclose(fid)
   end
 end
-
-H5cr.save("./examples/model.h5")
-#H5cr.load("./examples/model.h5")

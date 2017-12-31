@@ -7,3 +7,7 @@ authors:
 crystal: 0.23.1
 
 license: MIT
+
+dependencies:
+  shainet:
+    github: NeuraLegion/shainet

@@ -1,9 +1,14 @@
 require "./spec_helper"
 
 describe H5cr do
-  # TODO: Write tests
-
-  it "works" do
-    false.should eq(true)
+  it "saves the model" do
+    network = SHAInet::Network.new
+    H5cr.save("./examples/model.h5", network)
   end
+
+  it "loads the model" do
+    network = SHAInet::Network.new
+    H5cr.load("./examples/model.h5", network)    
+  end
+
 end
