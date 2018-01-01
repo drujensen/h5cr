@@ -1,284 +1,318 @@
 @[Link("hdf5")]
 lib LibHdf5
-  CXX_HAVE_OFFSETOF = 1
-  DEV_T_IS_SCALAR = 1
-  FORTRAN_C_LONG_DOUBLE_IS_UNIQUE = 1
-  FORTRAN_HAVE_C_LONG_DOUBLE = 1
-  FORTRAN_HAVE_C_SIZEOF = 1
-  FORTRAN_HAVE_SIZEOF = 1
-  FORTRAN_HAVE_STORAGE_SIZE = 1
-  HAVE_ALARM = 1
-  HAVE_ASPRINTF = 1
-  HAVE_ATTRIBUTE = 1
-  HAVE_C99_DESIGNATED_INITIALIZER = 1
-  HAVE_C99_FUNC = 1
-  HAVE_CLOCK_GETTIME = 1
-  HAVE_DARWIN = 1
-  HAVE_DIFFTIME = 1
-  HAVE_DIRENT_H = 1
-  HAVE_DLFCN_H = 1
-  HAVE_EMBEDDED_LIBINFO = 1
-  HAVE_FCNTL = 1
-  HAVE_FILTER_DEFLATE = 1
-  HAVE_FILTER_SZIP = 1
-  HAVE_FLOCK = 1
-  HAVE_FORK = 1
-  HAVE_FREXPF = 1
-  HAVE_FREXPL = 1
-  HAVE_FUNCTION = 1
-  HAVE_FORTRAN_INTEGER_SIZEOF_16 = 1
-  HAVE_GETHOSTNAME = 1
-  HAVE_GETPWUID = 1
-  HAVE_GETRUSAGE = 1
-  HAVE_GETTIMEOFDAY = 1
-  HAVE_INLINE = 1
-  HAVE_INTTYPES_H = 1
-  HAVE_IOCTL = 1
-  HAVE_LIBDL = 1
-  HAVE_LIBM = 1
-  HAVE_LIBSZ = 1
-  HAVE_LIBZ = 1
-  HAVE_LLROUND = 1
-  HAVE_LLROUNDF = 1
-  HAVE_LONGJMP = 1
-  HAVE_LROUND = 1
-  HAVE_LROUNDF = 1
-  HAVE_LSTAT = 1
-  HAVE_MACH_MACH_TIME_H = 1
-  HAVE_MEMORY_H = 1
-  HAVE_RANDOM = 1
-  HAVE_RAND_R = 1
-  HAVE_ROUND = 1
-  HAVE_ROUNDF = 1
-  HAVE_SETJMP = 1
-  HAVE_SETJMP_H = 1
-  HAVE_SIGLONGJMP = 1
-  HAVE_SIGNAL = 1
-  HAVE_SIGPROCMASK = 1
-  HAVE_SIGSETJMP = 1
-  HAVE_SNPRINTF = 1
-  HAVE_SRANDOM = 1
-  HAVE_STDBOOL_H = 1
-  HAVE_STDDEF_H = 1
-  HAVE_STDINT_H = 1
-  HAVE_STDLIB_H = 1
-  HAVE_STRDUP = 1
-  HAVE_STRINGS_H = 1
-  HAVE_STRING_H = 1
-  HAVE_STRTOLL = 1
-  HAVE_STRTOULL = 1
-  HAVE_SYMLINK = 1
-  HAVE_SYSTEM = 1
-  HAVE_SYS_FILE_H = 1
-  HAVE_SYS_IOCTL_H = 1
-  HAVE_SYS_RESOURCE_H = 1
-  HAVE_SYS_SOCKET_H = 1
-  HAVE_SYS_STAT_H = 1
-  HAVE_SYS_TIMEB_H = 1
-  HAVE_SYS_TIME_H = 1
-  HAVE_SYS_TYPES_H = 1
-  HAVE_SZLIB_H = 1
-  HAVE_TIMEZONE = 1
-  HAVE_TIOCGETD = 1
-  HAVE_TIOCGWINSZ = 1
-  HAVE_TMPFILE = 1
-  HAVE_TM_GMTOFF = 1
-  HAVE_UNISTD_H = 1
-  HAVE_VASPRINTF = 1
-  HAVE_VSNPRINTF = 1
-  HAVE_WAITPID = 1
-  HAVE_ZLIB_H = 1
-  HAVE___INLINE = 1
-  HAVE___INLINE__ = 1
-  INCLUDE_HL = 1
-  LDOUBLE_TO_LLONG_ACCURATE = 1
-  LLONG_TO_LDOUBLE_CORRECT = 1
-  NO_ALIGNMENT_RESTRICTIONS = 1
-  PAC_C_MAX_REAL_PRECISION = 21
-  PAC_FC_MAX_REAL_PRECISION = 33
-  SIZEOF_BOOL = 1
-  SIZEOF_CHAR = 1
-  SIZEOF_DOUBLE = 8
-  SIZEOF_FLOAT = 4
-  SIZEOF_INT = 4
-  SIZEOF_INT16_T = 2
-  SIZEOF_INT32_T = 4
-  SIZEOF_INT64_T = 8
-  SIZEOF_INT8_T = 1
-  SIZEOF_INT_FAST16_T = 2
-  SIZEOF_INT_FAST32_T = 4
-  SIZEOF_INT_FAST64_T = 8
-  SIZEOF_INT_FAST8_T = 1
-  SIZEOF_INT_LEAST16_T = 2
-  SIZEOF_INT_LEAST32_T = 4
-  SIZEOF_INT_LEAST64_T = 8
-  SIZEOF_INT_LEAST8_T = 1
-  SIZEOF_LONG = 8
-  SIZEOF_LONG_DOUBLE = 16
-  SIZEOF_LONG_LONG = 8
-  SIZEOF_OFF_T = 8
-  SIZEOF_PTRDIFF_T = 8
-  SIZEOF_SHORT = 2
-  SIZEOF_SIZE_T = 8
-  SIZEOF_SSIZE_T = 8
-  SIZEOF_UINT16_T = 2
-  SIZEOF_UINT32_T = 4
-  SIZEOF_UINT64_T = 8
-  SIZEOF_UINT8_T = 1
-  SIZEOF_UINT_FAST16_T = 2
-  SIZEOF_UINT_FAST32_T = 4
-  SIZEOF_UINT_FAST64_T = 8
-  SIZEOF_UINT_FAST8_T = 1
-  SIZEOF_UINT_LEAST16_T = 2
-  SIZEOF_UINT_LEAST32_T = 4
-  SIZEOF_UINT_LEAST64_T = 8
-  SIZEOF_UINT_LEAST8_T = 1
-  SIZEOF_UNSIGNED = 4
-  SIZEOF__QUAD = 0
-  SIZEOF___FLOAT128 = 0
-  SIZEOF___INT64 = 0
-  STDC_HEADERS = 1
-  TIME_WITH_SYS_TIME = 1
-  WANT_DATA_ACCURACY = 1
-  WANT_DCONV_EXCEPTION = 1
-  ACREATE_VERS = 2
-  AITERATE_VERS = 2
-  DCREATE_VERS = 2
-  DOPEN_VERS = 2
-  ECLEAR_VERS = 2
-  EGET_AUTO_VERS = 2
-  EPRINT_VERS = 2
-  EPUSH_VERS = 2
-  ESET_AUTO_VERS = 2
-  EWALK_VERS = 2
-  FGET_INFO_VERS = 2
-  GCREATE_VERS = 2
-  GOPEN_VERS = 2
-  PGET_FILTER_VERS = 2
-  PGET_FILTER_BY_ID_VERS = 2
-  PINSERT_VERS = 2
-  PREGISTER_VERS = 2
-  RDEREFERENCE_VERS = 2
-  RGET_OBJ_TYPE_VERS = 2
-  TARRAY_CREATE_VERS = 2
-  TCOMMIT_VERS = 2
-  TGET_ARRAY_DIMS_VERS = 2
-  TOPEN_VERS = 2
-  E_AUTO_T_VERS = 2
-  Z_CLASS_T_VERS = 2
-  VERS_MAJOR = 1
-  VERS_MINOR = 10
-  VERS_RELEASE = 1
-  T_OPAQUE_TAG_MAX = 256
-  L_LINK_CLASS_T_VERS = 0
-  O_SHMESG_NONE_FLAG = 0
-  O_HDR_CHUNK0_SIZE = 3
-  O_HDR_ATTR_CRT_ORDER_TRACKED = 4
-  O_HDR_ATTR_CRT_ORDER_INDEXED = 8
-  O_HDR_ATTR_STORE_PHASE_CHANGE = 16
-  O_HDR_STORE_TIMES = 32
-  O_SHMESG_MAX_NINDEXES = 8
-  O_SHMESG_MAX_LIST_SIZE = 5000
-  AC__CURR_CACHE_CONFIG_VERSION = 1
-  AC__MAX_TRACE_FILE_NAME_LEN = 1024
-  AC_METADATA_WRITE_STRATEGY__PROCESS_0_ONLY = 0
-  AC_METADATA_WRITE_STRATEGY__DISTRIBUTED = 1
-  AC__CURR_CACHE_IMAGE_CONFIG_VERSION = 1
-  AC__CACHE_IMAGE__ENTRY_AGEOUT__NONE = -1
-  AC__CACHE_IMAGE__ENTRY_AGEOUT__MAX = 100
-  F_NUM_METADATA_READ_RETRY_TYPES = 21
-  HAVE_VFL = 1
-  FD_VFD_DEFAULT = 0
-  FD_FEAT_AGGREGATE_METADATA = 1
-  FD_FEAT_ACCUMULATE_METADATA_WRITE = 2
-  FD_FEAT_ACCUMULATE_METADATA_READ = 4
-  FD_FEAT_DATA_SIEVE = 8
-  FD_FEAT_AGGREGATE_SMALLDATA = 16
-  FD_FEAT_IGNORE_DRVRINFO = 32
-  FD_FEAT_DIRTY_DRVRINFO_LOAD = 64
-  FD_FEAT_POSIX_COMPAT_HANDLE = 128
-  FD_FEAT_HAS_MPI = 256
-  FD_FEAT_ALLOCATE_EARLY = 512
-  FD_FEAT_ALLOW_FILE_IMAGE = 1024
-  FD_FEAT_CAN_USE_FILE_IMAGE_CALLBACKS = 2048
-  FD_FEAT_SUPPORTS_SWMR_IO = 4096
-  FD_FEAT_USE_ALLOC_SIZE = 8192
-  FD_FEAT_PAGED_AGGR = 16384
-  G_NTYPES = 256
-  G_NLIBTYPES = 8
-  Z_FILTER_NONE = 0
-  Z_FILTER_DEFLATE = 1
-  Z_FILTER_SHUFFLE = 2
-  Z_FILTER_FLETCHER32 = 3
-  Z_FILTER_SZIP = 4
-  Z_FILTER_NBIT = 5
-  Z_FILTER_SCALEOFFSET = 6
-  Z_FILTER_RESERVED = 256
-  Z_FILTER_MAX = 65535
-  Z_FILTER_ALL = 0
-  Z_MAX_NFILTERS = 32
-  Z_FLAG_DEFMASK = 255
-  Z_FLAG_MANDATORY = 0
-  Z_FLAG_OPTIONAL = 1
-  Z_FLAG_INVMASK = 65280
-  Z_FLAG_REVERSE = 256
-  Z_FLAG_SKIP_EDC = 512
-  SZIP_ALLOW_K13_OPTION_MASK = 1
-  SZIP_CHIP_OPTION_MASK = 2
-  SZIP_EC_OPTION_MASK = 4
-  SZIP_NN_OPTION_MASK = 32
-  SZIP_MAX_PIXELS_PER_BLOCK = 32
-  Z_SHUFFLE_USER_NPARMS = 0
-  Z_SHUFFLE_TOTAL_NPARMS = 1
-  Z_SZIP_USER_NPARMS = 2
-  Z_SZIP_TOTAL_NPARMS = 4
-  Z_SZIP_PARM_MASK = 0
-  Z_SZIP_PARM_PPB = 1
-  Z_SZIP_PARM_BPP = 2
-  Z_SZIP_PARM_PPS = 3
-  Z_NBIT_USER_NPARMS = 0
-  Z_SCALEOFFSET_USER_NPARMS = 2
-  Z_SO_INT_MINBITS_DEFAULT = 0
-  P_CRT_ORDER_TRACKED = 1
-  P_CRT_ORDER_INDEXED = 2
-  PL_FILTER_PLUGIN = 1
-  PL_ALL_PLUGIN = 65535
-  S_MAX_RANK = 32
-  FD_LOG_TRUNCATE = 1
-  FD_LOG_LOC_READ = 2
-  FD_LOG_LOC_WRITE = 4
-  FD_LOG_LOC_SEEK = 8
-  FD_LOG_FILE_READ = 16
-  FD_LOG_FILE_WRITE = 32
-  FD_LOG_FLAVOR = 64
-  FD_LOG_NUM_READ = 128
-  FD_LOG_NUM_WRITE = 256
-  FD_LOG_NUM_SEEK = 512
-  FD_LOG_NUM_TRUNCATE = 1024
-  FD_LOG_TIME_OPEN = 2048
-  FD_LOG_TIME_STAT = 4096
-  FD_LOG_TIME_READ = 8192
-  FD_LOG_TIME_WRITE = 16384
-  FD_LOG_TIME_SEEK = 32768
-  FD_LOG_TIME_TRUNCATE = 65536
-  FD_LOG_TIME_CLOSE = 131072
-  FD_LOG_ALLOC = 262144
-  FD_LOG_FREE = 524288
-  D_ONE_LINK_CHUNK_IO_THRESHOLD = 0
-  D_MULTI_CHUNK_IO_COL_THRESHOLD = 60
-  LT_FILE_IMAGE_OPEN_RW = 1
-  LT_FILE_IMAGE_DONT_COPY = 2
-  LT_FILE_IMAGE_DONT_RELEASE = 4
-  LT_FILE_IMAGE_ALL = 7
-  IterUnknown = -1
-  IterInc = 0
-  IterDec = 1
-  IterNative = 2
-  IterN = 3
+  # File Flags
+  H5F_ACC_RDONLY     = 0x0000 # absence of rdwr => rd-only
+  H5F_ACC_RDWR       = 0x0001 # open for read and write
+  H5F_ACC_TRUNC      = 0x0002 # overwrite existing files
+  H5F_ACC_EXCL       = 0x0004 # fail if file already exists
+  H5P_DEFAULT        =      0
+  H5F_ACC_CREAT      = 0x0010 # create non-existing files  */
+  H5F_ACC_DEFAULT    = 0xffff
+  H5F_ACC_SWMR_WRITE = 0x0020 # indicate that this file is
+  # open for writing in a
+  # single-writer/multi-reader (SWMR)
+  # scenario.  Note that the
+  # process(es) opening the file
+  # for reading must open the file
+  # with RDONLY access, and use
+  # the special "SWMR_READ" access
+  # flag.
+  H5F_ACC_SWMR_READ = 0x0040 # indicate that this file is
+  # open for reading in a
+  # single-writer/multi-reader (SWMR)
+  # scenario.  Note that the
+  # process(es) opening the file
+  # for SWMR reading must also
+  # open the file with the RDONLY
+  # flag.
+  H5F_OBJ_FILE     = 0x0001 # /* File objects */
+  H5F_OBJ_DATASET  = 0x0002 # /* Dataset objects */
+  H5F_OBJ_GROUP    = 0x0004 # /* Group objects */
+  H5F_OBJ_DATATYPE = 0x0008 # /* Named datatype objects */
+  H5F_OBJ_ATTR     = 0x0010 # /* Attribute objects */
+  H5F_OBJ_LOCAL    = 0x0020 # /* Restrict search to objects opened through current file ID */
+
+  CXX_HAVE_OFFSETOF                          =      1
+  DEV_T_IS_SCALAR                            =      1
+  FORTRAN_C_LONG_DOUBLE_IS_UNIQUE            =      1
+  FORTRAN_HAVE_C_LONG_DOUBLE                 =      1
+  FORTRAN_HAVE_C_SIZEOF                      =      1
+  FORTRAN_HAVE_SIZEOF                        =      1
+  FORTRAN_HAVE_STORAGE_SIZE                  =      1
+  HAVE_ALARM                                 =      1
+  HAVE_ASPRINTF                              =      1
+  HAVE_ATTRIBUTE                             =      1
+  HAVE_C99_DESIGNATED_INITIALIZER            =      1
+  HAVE_C99_FUNC                              =      1
+  HAVE_CLOCK_GETTIME                         =      1
+  HAVE_DARWIN                                =      1
+  HAVE_DIFFTIME                              =      1
+  HAVE_DIRENT_H                              =      1
+  HAVE_DLFCN_H                               =      1
+  HAVE_EMBEDDED_LIBINFO                      =      1
+  HAVE_FCNTL                                 =      1
+  HAVE_FILTER_DEFLATE                        =      1
+  HAVE_FILTER_SZIP                           =      1
+  HAVE_FLOCK                                 =      1
+  HAVE_FORK                                  =      1
+  HAVE_FREXPF                                =      1
+  HAVE_FREXPL                                =      1
+  HAVE_FUNCTION                              =      1
+  HAVE_FORTRAN_INTEGER_SIZEOF_16             =      1
+  HAVE_GETHOSTNAME                           =      1
+  HAVE_GETPWUID                              =      1
+  HAVE_GETRUSAGE                             =      1
+  HAVE_GETTIMEOFDAY                          =      1
+  HAVE_INLINE                                =      1
+  HAVE_INTTYPES_H                            =      1
+  HAVE_IOCTL                                 =      1
+  HAVE_LIBDL                                 =      1
+  HAVE_LIBM                                  =      1
+  HAVE_LIBSZ                                 =      1
+  HAVE_LIBZ                                  =      1
+  HAVE_LLROUND                               =      1
+  HAVE_LLROUNDF                              =      1
+  HAVE_LONGJMP                               =      1
+  HAVE_LROUND                                =      1
+  HAVE_LROUNDF                               =      1
+  HAVE_LSTAT                                 =      1
+  HAVE_MACH_MACH_TIME_H                      =      1
+  HAVE_MEMORY_H                              =      1
+  HAVE_RANDOM                                =      1
+  HAVE_RAND_R                                =      1
+  HAVE_ROUND                                 =      1
+  HAVE_ROUNDF                                =      1
+  HAVE_SETJMP                                =      1
+  HAVE_SETJMP_H                              =      1
+  HAVE_SIGLONGJMP                            =      1
+  HAVE_SIGNAL                                =      1
+  HAVE_SIGPROCMASK                           =      1
+  HAVE_SIGSETJMP                             =      1
+  HAVE_SNPRINTF                              =      1
+  HAVE_SRANDOM                               =      1
+  HAVE_STDBOOL_H                             =      1
+  HAVE_STDDEF_H                              =      1
+  HAVE_STDINT_H                              =      1
+  HAVE_STDLIB_H                              =      1
+  HAVE_STRDUP                                =      1
+  HAVE_STRINGS_H                             =      1
+  HAVE_STRING_H                              =      1
+  HAVE_STRTOLL                               =      1
+  HAVE_STRTOULL                              =      1
+  HAVE_SYMLINK                               =      1
+  HAVE_SYSTEM                                =      1
+  HAVE_SYS_FILE_H                            =      1
+  HAVE_SYS_IOCTL_H                           =      1
+  HAVE_SYS_RESOURCE_H                        =      1
+  HAVE_SYS_SOCKET_H                          =      1
+  HAVE_SYS_STAT_H                            =      1
+  HAVE_SYS_TIMEB_H                           =      1
+  HAVE_SYS_TIME_H                            =      1
+  HAVE_SYS_TYPES_H                           =      1
+  HAVE_SZLIB_H                               =      1
+  HAVE_TIMEZONE                              =      1
+  HAVE_TIOCGETD                              =      1
+  HAVE_TIOCGWINSZ                            =      1
+  HAVE_TMPFILE                               =      1
+  HAVE_TM_GMTOFF                             =      1
+  HAVE_UNISTD_H                              =      1
+  HAVE_VASPRINTF                             =      1
+  HAVE_VSNPRINTF                             =      1
+  HAVE_WAITPID                               =      1
+  HAVE_ZLIB_H                                =      1
+  HAVE___INLINE                              =      1
+  HAVE___INLINE__                            =      1
+  INCLUDE_HL                                 =      1
+  LDOUBLE_TO_LLONG_ACCURATE                  =      1
+  LLONG_TO_LDOUBLE_CORRECT                   =      1
+  NO_ALIGNMENT_RESTRICTIONS                  =      1
+  PAC_C_MAX_REAL_PRECISION                   =     21
+  PAC_FC_MAX_REAL_PRECISION                  =     33
+  SIZEOF_BOOL                                =      1
+  SIZEOF_CHAR                                =      1
+  SIZEOF_DOUBLE                              =      8
+  SIZEOF_FLOAT                               =      4
+  SIZEOF_INT                                 =      4
+  SIZEOF_INT16_T                             =      2
+  SIZEOF_INT32_T                             =      4
+  SIZEOF_INT64_T                             =      8
+  SIZEOF_INT8_T                              =      1
+  SIZEOF_INT_FAST16_T                        =      2
+  SIZEOF_INT_FAST32_T                        =      4
+  SIZEOF_INT_FAST64_T                        =      8
+  SIZEOF_INT_FAST8_T                         =      1
+  SIZEOF_INT_LEAST16_T                       =      2
+  SIZEOF_INT_LEAST32_T                       =      4
+  SIZEOF_INT_LEAST64_T                       =      8
+  SIZEOF_INT_LEAST8_T                        =      1
+  SIZEOF_LONG                                =      8
+  SIZEOF_LONG_DOUBLE                         =     16
+  SIZEOF_LONG_LONG                           =      8
+  SIZEOF_OFF_T                               =      8
+  SIZEOF_PTRDIFF_T                           =      8
+  SIZEOF_SHORT                               =      2
+  SIZEOF_SIZE_T                              =      8
+  SIZEOF_SSIZE_T                             =      8
+  SIZEOF_UINT16_T                            =      2
+  SIZEOF_UINT32_T                            =      4
+  SIZEOF_UINT64_T                            =      8
+  SIZEOF_UINT8_T                             =      1
+  SIZEOF_UINT_FAST16_T                       =      2
+  SIZEOF_UINT_FAST32_T                       =      4
+  SIZEOF_UINT_FAST64_T                       =      8
+  SIZEOF_UINT_FAST8_T                        =      1
+  SIZEOF_UINT_LEAST16_T                      =      2
+  SIZEOF_UINT_LEAST32_T                      =      4
+  SIZEOF_UINT_LEAST64_T                      =      8
+  SIZEOF_UINT_LEAST8_T                       =      1
+  SIZEOF_UNSIGNED                            =      4
+  SIZEOF__QUAD                               =      0
+  SIZEOF___FLOAT128                          =      0
+  SIZEOF___INT64                             =      0
+  STDC_HEADERS                               =      1
+  TIME_WITH_SYS_TIME                         =      1
+  WANT_DATA_ACCURACY                         =      1
+  WANT_DCONV_EXCEPTION                       =      1
+  ACREATE_VERS                               =      2
+  AITERATE_VERS                              =      2
+  DCREATE_VERS                               =      2
+  DOPEN_VERS                                 =      2
+  ECLEAR_VERS                                =      2
+  EGET_AUTO_VERS                             =      2
+  EPRINT_VERS                                =      2
+  EPUSH_VERS                                 =      2
+  ESET_AUTO_VERS                             =      2
+  EWALK_VERS                                 =      2
+  FGET_INFO_VERS                             =      2
+  GCREATE_VERS                               =      2
+  GOPEN_VERS                                 =      2
+  PGET_FILTER_VERS                           =      2
+  PGET_FILTER_BY_ID_VERS                     =      2
+  PINSERT_VERS                               =      2
+  PREGISTER_VERS                             =      2
+  RDEREFERENCE_VERS                          =      2
+  RGET_OBJ_TYPE_VERS                         =      2
+  TARRAY_CREATE_VERS                         =      2
+  TCOMMIT_VERS                               =      2
+  TGET_ARRAY_DIMS_VERS                       =      2
+  TOPEN_VERS                                 =      2
+  E_AUTO_T_VERS                              =      2
+  Z_CLASS_T_VERS                             =      2
+  VERS_MAJOR                                 =      1
+  VERS_MINOR                                 =     10
+  VERS_RELEASE                               =      1
+  T_OPAQUE_TAG_MAX                           =    256
+  L_LINK_CLASS_T_VERS                        =      0
+  O_SHMESG_NONE_FLAG                         =      0
+  O_HDR_CHUNK0_SIZE                          =      3
+  O_HDR_ATTR_CRT_ORDER_TRACKED               =      4
+  O_HDR_ATTR_CRT_ORDER_INDEXED               =      8
+  O_HDR_ATTR_STORE_PHASE_CHANGE              =     16
+  O_HDR_STORE_TIMES                          =     32
+  O_SHMESG_MAX_NINDEXES                      =      8
+  O_SHMESG_MAX_LIST_SIZE                     =   5000
+  AC__CURR_CACHE_CONFIG_VERSION              =      1
+  AC__MAX_TRACE_FILE_NAME_LEN                =   1024
+  AC_METADATA_WRITE_STRATEGY__PROCESS_0_ONLY =      0
+  AC_METADATA_WRITE_STRATEGY__DISTRIBUTED    =      1
+  AC__CURR_CACHE_IMAGE_CONFIG_VERSION        =      1
+  AC__CACHE_IMAGE__ENTRY_AGEOUT__NONE        =     -1
+  AC__CACHE_IMAGE__ENTRY_AGEOUT__MAX         =    100
+  F_NUM_METADATA_READ_RETRY_TYPES            =     21
+  HAVE_VFL                                   =      1
+  FD_VFD_DEFAULT                             =      0
+  FD_FEAT_AGGREGATE_METADATA                 =      1
+  FD_FEAT_ACCUMULATE_METADATA_WRITE          =      2
+  FD_FEAT_ACCUMULATE_METADATA_READ           =      4
+  FD_FEAT_DATA_SIEVE                         =      8
+  FD_FEAT_AGGREGATE_SMALLDATA                =     16
+  FD_FEAT_IGNORE_DRVRINFO                    =     32
+  FD_FEAT_DIRTY_DRVRINFO_LOAD                =     64
+  FD_FEAT_POSIX_COMPAT_HANDLE                =    128
+  FD_FEAT_HAS_MPI                            =    256
+  FD_FEAT_ALLOCATE_EARLY                     =    512
+  FD_FEAT_ALLOW_FILE_IMAGE                   =   1024
+  FD_FEAT_CAN_USE_FILE_IMAGE_CALLBACKS       =   2048
+  FD_FEAT_SUPPORTS_SWMR_IO                   =   4096
+  FD_FEAT_USE_ALLOC_SIZE                     =   8192
+  FD_FEAT_PAGED_AGGR                         =  16384
+  G_NTYPES                                   =    256
+  G_NLIBTYPES                                =      8
+  Z_FILTER_NONE                              =      0
+  Z_FILTER_DEFLATE                           =      1
+  Z_FILTER_SHUFFLE                           =      2
+  Z_FILTER_FLETCHER32                        =      3
+  Z_FILTER_SZIP                              =      4
+  Z_FILTER_NBIT                              =      5
+  Z_FILTER_SCALEOFFSET                       =      6
+  Z_FILTER_RESERVED                          =    256
+  Z_FILTER_MAX                               =  65535
+  Z_FILTER_ALL                               =      0
+  Z_MAX_NFILTERS                             =     32
+  Z_FLAG_DEFMASK                             =    255
+  Z_FLAG_MANDATORY                           =      0
+  Z_FLAG_OPTIONAL                            =      1
+  Z_FLAG_INVMASK                             =  65280
+  Z_FLAG_REVERSE                             =    256
+  Z_FLAG_SKIP_EDC                            =    512
+  SZIP_ALLOW_K13_OPTION_MASK                 =      1
+  SZIP_CHIP_OPTION_MASK                      =      2
+  SZIP_EC_OPTION_MASK                        =      4
+  SZIP_NN_OPTION_MASK                        =     32
+  SZIP_MAX_PIXELS_PER_BLOCK                  =     32
+  Z_SHUFFLE_USER_NPARMS                      =      0
+  Z_SHUFFLE_TOTAL_NPARMS                     =      1
+  Z_SZIP_USER_NPARMS                         =      2
+  Z_SZIP_TOTAL_NPARMS                        =      4
+  Z_SZIP_PARM_MASK                           =      0
+  Z_SZIP_PARM_PPB                            =      1
+  Z_SZIP_PARM_BPP                            =      2
+  Z_SZIP_PARM_PPS                            =      3
+  Z_NBIT_USER_NPARMS                         =      0
+  Z_SCALEOFFSET_USER_NPARMS                  =      2
+  Z_SO_INT_MINBITS_DEFAULT                   =      0
+  P_CRT_ORDER_TRACKED                        =      1
+  P_CRT_ORDER_INDEXED                        =      2
+  PL_FILTER_PLUGIN                           =      1
+  PL_ALL_PLUGIN                              =  65535
+  S_MAX_RANK                                 =     32
+  FD_LOG_TRUNCATE                            =      1
+  FD_LOG_LOC_READ                            =      2
+  FD_LOG_LOC_WRITE                           =      4
+  FD_LOG_LOC_SEEK                            =      8
+  FD_LOG_FILE_READ                           =     16
+  FD_LOG_FILE_WRITE                          =     32
+  FD_LOG_FLAVOR                              =     64
+  FD_LOG_NUM_READ                            =    128
+  FD_LOG_NUM_WRITE                           =    256
+  FD_LOG_NUM_SEEK                            =    512
+  FD_LOG_NUM_TRUNCATE                        =   1024
+  FD_LOG_TIME_OPEN                           =   2048
+  FD_LOG_TIME_STAT                           =   4096
+  FD_LOG_TIME_READ                           =   8192
+  FD_LOG_TIME_WRITE                          =  16384
+  FD_LOG_TIME_SEEK                           =  32768
+  FD_LOG_TIME_TRUNCATE                       =  65536
+  FD_LOG_TIME_CLOSE                          = 131072
+  FD_LOG_ALLOC                               = 262144
+  FD_LOG_FREE                                = 524288
+  D_ONE_LINK_CHUNK_IO_THRESHOLD              =      0
+  D_MULTI_CHUNK_IO_COL_THRESHOLD             =     60
+  LT_FILE_IMAGE_OPEN_RW                      =      1
+  LT_FILE_IMAGE_DONT_COPY                    =      2
+  LT_FILE_IMAGE_DONT_RELEASE                 =      4
+  LT_FILE_IMAGE_ALL                          =      7
+  IterUnknown                                =     -1
+  IterInc                                    =      0
+  IterDec                                    =      1
+  IterNative                                 =      2
+  IterN                                      =      3
+
   struct IhInfoT
     index_size : HsizeT
     heap_size : HsizeT
   end
+
   alias HsizeT = LibC::ULongLong
   fun open = H5open : HerrT
   alias HerrT = LibC::Int
@@ -295,22 +329,22 @@ lib LibHdf5
   fun resize_memory = H5resize_memory(mem : Void*, size : LibC::SizeT) : Void*
   fun iregister = H5Iregister(type : ITypeT, object : Void*) : HidT
   enum ITypeT
-    IUninit = -2
-    IBadid = -1
-    IFile = 1
-    IGroup = 2
-    IDatatype = 3
-    IDataspace = 4
-    IDataset = 5
-    IAttr = 6
-    IReference = 7
-    IVfl = 8
-    IGenpropCls = 9
+    IUninit     = -2
+    IBadid      = -1
+    IFile       =  1
+    IGroup      =  2
+    IDatatype   =  3
+    IDataspace  =  4
+    IDataset    =  5
+    IAttr       =  6
+    IReference  =  7
+    IVfl        =  8
+    IGenpropCls =  9
     IGenpropLst = 10
     IErrorClass = 11
-    IErrorMsg = 12
+    IErrorMsg   = 12
     IErrorStack = 13
-    INtypes = 14
+    INtypes     = 14
   end
   alias Int64T = LibC::LongLong
   alias HidT = Int64T
@@ -337,37 +371,39 @@ lib LibHdf5
   fun itype_exists = H5Itype_exists(type : ITypeT) : HtriT
   alias HtriT = LibC::Int
   fun iis_valid = H5Iis_valid(id : HidT) : HtriT
+
   struct TCdataT
     command : TCmdT
     need_bkg : TBkgT
     recalc : HboolT
     priv : Void*
   end
+
   enum TCmdT
     TConvInit = 0
     TConvConv = 1
     TConvFree = 2
   end
   enum TBkgT
-    TBkgNo = 0
+    TBkgNo   = 0
     TBkgTemp = 1
-    TBkgYes = 2
+    TBkgYes  = 2
   end
   fun tcreate = H5Tcreate(type : TClassT, size : LibC::SizeT) : HidT
   enum TClassT
-    TNoClass = -1
-    TInteger = 0
-    TFloat = 1
-    TTime = 2
-    TString = 3
-    TBitfield = 4
-    TOpaque = 5
-    TCompound = 6
-    TReference = 7
-    TEnum = 8
-    TVlen = 9
-    TArray = 10
-    TNclasses = 11
+    TNoClass   = -1
+    TInteger   =  0
+    TFloat     =  1
+    TTime      =  2
+    TString    =  3
+    TBitfield  =  4
+    TOpaque    =  5
+    TCompound  =  6
+    TReference =  7
+    TEnum      =  8
+    TVlen      =  9
+    TArray     = 10
+    TNclasses  = 11
   end
   fun tcopy = H5Tcopy(type_id : HidT) : HidT
   fun tclose = H5Tclose(type_id : HidT) : HerrT
@@ -401,52 +437,52 @@ lib LibHdf5
   fun tget_order = H5Tget_order(type_id : HidT) : TOrderT
   enum TOrderT
     TOrderError = -1
-    TOrderLe = 0
-    TOrderBe = 1
-    TOrderVax = 2
-    TOrderMixed = 3
-    TOrderNone = 4
+    TOrderLe    =  0
+    TOrderBe    =  1
+    TOrderVax   =  2
+    TOrderMixed =  3
+    TOrderNone  =  4
   end
   fun tget_precision = H5Tget_precision(type_id : HidT) : LibC::SizeT
   fun tget_offset = H5Tget_offset(type_id : HidT) : LibC::Int
   fun tget_pad = H5Tget_pad(type_id : HidT, lsb : TPadT*, msb : TPadT*) : HerrT
   enum TPadT
-    TPadError = -1
-    TPadZero = 0
-    TPadOne = 1
-    TPadBackground = 2
-    TNpad = 3
+    TPadError      = -1
+    TPadZero       =  0
+    TPadOne        =  1
+    TPadBackground =  2
+    TNpad          =  3
   end
   fun tget_sign = H5Tget_sign(type_id : HidT) : TSignT
   enum TSignT
     TSgnError = -1
-    TSgnNone = 0
-    TSgn2 = 1
-    TNsgn = 2
+    TSgnNone  =  0
+    TSgn2     =  1
+    TNsgn     =  2
   end
   fun tget_fields = H5Tget_fields(type_id : HidT, spos : LibC::SizeT*, epos : LibC::SizeT*, esize : LibC::SizeT*, mpos : LibC::SizeT*, msize : LibC::SizeT*) : HerrT
   fun tget_ebias = H5Tget_ebias(type_id : HidT) : LibC::SizeT
   fun tget_norm = H5Tget_norm(type_id : HidT) : TNormT
   enum TNormT
-    TNormError = -1
-    TNormImplied = 0
-    TNormMsbset = 1
-    TNormNone = 2
+    TNormError   = -1
+    TNormImplied =  0
+    TNormMsbset  =  1
+    TNormNone    =  2
   end
   fun tget_inpad = H5Tget_inpad(type_id : HidT) : TPadT
   fun tget_strpad = H5Tget_strpad(type_id : HidT) : TStrT
   enum TStrT
-    TStrError = -1
-    TStrNullterm = 0
-    TStrNullpad = 1
-    TStrSpacepad = 2
-    TStrReserved3 = 3
-    TStrReserved4 = 4
-    TStrReserved5 = 5
-    TStrReserved6 = 6
-    TStrReserved7 = 7
-    TStrReserved8 = 8
-    TStrReserved9 = 9
+    TStrError      = -1
+    TStrNullterm   =  0
+    TStrNullpad    =  1
+    TStrSpacepad   =  2
+    TStrReserved3  =  3
+    TStrReserved4  =  4
+    TStrReserved5  =  5
+    TStrReserved6  =  6
+    TStrReserved7  =  7
+    TStrReserved8  =  8
+    TStrReserved9  =  9
     TStrReserved10 = 10
     TStrReserved11 = 11
     TStrReserved12 = 12
@@ -463,17 +499,17 @@ lib LibHdf5
   fun tget_member_value = H5Tget_member_value(type_id : HidT, membno : LibC::UInt, value : Void*) : HerrT
   fun tget_cset = H5Tget_cset(type_id : HidT) : TCsetT
   enum TCsetT
-    TCsetError = -1
-    TCsetAscii = 0
-    TCsetUtf8 = 1
-    TCsetReserved2 = 2
-    TCsetReserved3 = 3
-    TCsetReserved4 = 4
-    TCsetReserved5 = 5
-    TCsetReserved6 = 6
-    TCsetReserved7 = 7
-    TCsetReserved8 = 8
-    TCsetReserved9 = 9
+    TCsetError      = -1
+    TCsetAscii      =  0
+    TCsetUtf8       =  1
+    TCsetReserved2  =  2
+    TCsetReserved3  =  3
+    TCsetReserved4  =  4
+    TCsetReserved5  =  5
+    TCsetReserved6  =  6
+    TCsetReserved7  =  7
+    TCsetReserved8  =  8
+    TCsetReserved9  =  9
     TCsetReserved10 = 10
     TCsetReserved11 = 11
     TCsetReserved12 = 12
@@ -485,7 +521,7 @@ lib LibHdf5
   fun tget_native_type = H5Tget_native_type(type_id : HidT, direction : TDirectionT) : HidT
   enum TDirectionT
     TDirDefault = 0
-    TDirAscend = 1
+    TDirAscend  = 1
     TDirDescend = 2
   end
   fun tset_size = H5Tset_size(type_id : HidT, size : LibC::SizeT) : HerrT
@@ -503,8 +539,8 @@ lib LibHdf5
   fun tregister = H5Tregister(pers : TPersT, name : LibC::Char*, src_id : HidT, dst_id : HidT, func : TConvT) : HerrT
   enum TPersT
     TPersDontcare = -1
-    TPersHard = 0
-    TPersSoft = 1
+    TPersHard     =  0
+    TPersSoft     =  1
   end
   alias TConvT = (HidT, HidT, TCdataT*, LibC::SizeT, LibC::SizeT, LibC::SizeT, Void*, Void*, HidT -> HerrT)
   fun tunregister = H5Tunregister(pers : TPersT, name : LibC::Char*, src_id : HidT, dst_id : HidT, func : TConvT) : HerrT
@@ -515,11 +551,11 @@ lib LibHdf5
   fun topen1 = H5Topen1(loc_id : HidT, name : LibC::Char*) : HidT
   fun tarray_create1 = H5Tarray_create1(base_id : HidT, ndims : LibC::Int, dim : HsizeT*, perm : LibC::Int*) : HidT
   fun tget_array_dims1 = H5Tget_array_dims1(type_id : HidT, dims : HsizeT*, perm : LibC::Int*) : LibC::Int
-  LTypeError = -1
-  LTypeHard = 0
-  LTypeSoft = 1
-  LTypeExternal = 64
-  LTypeMax = 255
+  LTypeError    =  -1
+  LTypeHard     =   0
+  LTypeSoft     =   1
+  LTypeExternal =  64
+  LTypeMax      = 255
   fun lmove = H5Lmove(src_loc : HidT, src_name : LibC::Char*, dst_loc : HidT, dst_name : LibC::Char*, lcpl_id : HidT, lapl_id : HidT) : HerrT
   fun lcopy = H5Lcopy(src_loc : HidT, src_name : LibC::Char*, dst_loc : HidT, dst_name : LibC::Char*, lcpl_id : HidT, lapl_id : HidT) : HerrT
   fun lcreate_hard = H5Lcreate_hard(cur_loc : HidT, cur_name : LibC::Char*, dst_loc : HidT, dst_name : LibC::Char*, lcpl_id : HidT, lapl_id : HidT) : HerrT
@@ -527,22 +563,23 @@ lib LibHdf5
   fun ldelete = H5Ldelete(loc_id : HidT, name : LibC::Char*, lapl_id : HidT) : HerrT
   fun ldelete_by_idx = H5Ldelete_by_idx(loc_id : HidT, group_name : LibC::Char*, idx_type : IndexT, order : IterOrderT, n : HsizeT, lapl_id : HidT) : HerrT
   enum IndexT
-    IndexUnknown = -1
-    IndexName = 0
-    IndexCrtOrder = 1
-    IndexN = 2
+    IndexUnknown  = -1
+    IndexName     =  0
+    IndexCrtOrder =  1
+    IndexN        =  2
   end
   enum IterOrderT
     IterUnknown = -1
-    IterInc = 0
-    IterDec = 1
-    IterNative = 2
-    IterN = 3
+    IterInc     =  0
+    IterDec     =  1
+    IterNative  =  2
+    IterN       =  3
   end
   fun lget_val = H5Lget_val(loc_id : HidT, name : LibC::Char*, buf : Void*, size : LibC::SizeT, lapl_id : HidT) : HerrT
   fun lget_val_by_idx = H5Lget_val_by_idx(loc_id : HidT, group_name : LibC::Char*, idx_type : IndexT, order : IterOrderT, n : HsizeT, buf : Void*, size : LibC::SizeT, lapl_id : HidT) : HerrT
   fun lexists = H5Lexists(loc_id : HidT, name : LibC::Char*, lapl_id : HidT) : HtriT
   fun lget_info = H5Lget_info(loc_id : HidT, name : LibC::Char*, linfo : LInfoT*, lapl_id : HidT) : HerrT
+
   struct LInfoT
     type : LTypeT
     corder_valid : HboolT
@@ -550,17 +587,20 @@ lib LibHdf5
     cset : TCsetT
     u : LInfoTU
   end
+
   enum LTypeT
-    LTypeError = -1
-    LTypeHard = 0
-    LTypeSoft = 1
-    LTypeExternal = 64
-    LTypeMax = 255
+    LTypeError    =  -1
+    LTypeHard     =   0
+    LTypeSoft     =   1
+    LTypeExternal =  64
+    LTypeMax      = 255
   end
+
   union LInfoTU
     address : HaddrT
     val_size : LibC::SizeT
   end
+
   alias HaddrT = LibC::ULong
   fun lget_info_by_idx = H5Lget_info_by_idx(loc_id : HidT, group_name : LibC::Char*, idx_type : IndexT, order : IterOrderT, n : HsizeT, linfo : LInfoT*, lapl_id : HidT) : HerrT
   fun lget_name_by_idx = H5Lget_name_by_idx(loc_id : HidT, group_name : LibC::Char*, idx_type : IndexT, order : IterOrderT, n : HsizeT, name : LibC::Char*, size : LibC::SizeT, lapl_id : HidT) : SsizeT
@@ -571,6 +611,7 @@ lib LibHdf5
   fun lvisit_by_name = H5Lvisit_by_name(loc_id : HidT, group_name : LibC::Char*, idx_type : IndexT, order : IterOrderT, op : LIterateT, op_data : Void*, lapl_id : HidT) : HerrT
   fun lcreate_ud = H5Lcreate_ud(link_loc_id : HidT, link_name : LibC::Char*, link_type : LTypeT, udata : Void*, udata_size : LibC::SizeT, lcpl_id : HidT, lapl_id : HidT) : HerrT
   fun lregister = H5Lregister(cls : LClassT*) : HerrT
+
   struct LClassT
     version : LibC::Int
     id : LTypeT
@@ -582,6 +623,7 @@ lib LibHdf5
     del_func : LDeleteFuncT
     query_func : LQueryFuncT
   end
+
   alias LCreateFuncT = (LibC::Char*, HidT, Void*, LibC::SizeT, HidT -> HerrT)
   alias LMoveFuncT = (LibC::Char*, HidT, Void*, LibC::SizeT -> HerrT)
   alias LCopyFuncT = (LibC::Char*, HidT, Void*, LibC::SizeT -> HerrT)
@@ -592,6 +634,7 @@ lib LibHdf5
   fun lis_registered = H5Lis_registered(id : LTypeT) : HtriT
   fun lunpack_elink_val = H5Lunpack_elink_val(ext_linkval : Void*, link_size : LibC::SizeT, flags : LibC::UInt*, filename : LibC::Char**, obj_path : LibC::Char**) : HerrT
   fun lcreate_external = H5Lcreate_external(file_name : LibC::Char*, obj_name : LibC::Char*, link_loc_id : HidT, link_name : LibC::Char*, lcpl_id : HidT, lapl_id : HidT) : HerrT
+
   struct OHdrInfoT
     version : LibC::UInt
     nmesgs : LibC::UInt
@@ -600,17 +643,21 @@ lib LibHdf5
     space : OHdrInfoTSpace
     mesg : OHdrInfoTMesg
   end
+
   struct OHdrInfoTSpace
     total : HsizeT
     meta : HsizeT
     mesg : HsizeT
     free : HsizeT
   end
+
   struct OHdrInfoTMesg
     present : Uint64T
     shared : Uint64T
   end
+
   alias Uint64T = LibC::ULongLong
+
   struct OInfoT
     fileno : LibC::ULong
     addr : HaddrT
@@ -624,19 +671,22 @@ lib LibHdf5
     hdr : OHdrInfoT
     meta_size : OInfoTMetaSize
   end
+
   enum OTypeT
-    OTypeUnknown = -1
-    OTypeGroup = 0
-    OTypeDataset = 1
-    OTypeNamedDatatype = 2
-    OTypeNtypes = 3
+    OTypeUnknown       = -1
+    OTypeGroup         =  0
+    OTypeDataset       =  1
+    OTypeNamedDatatype =  2
+    OTypeNtypes        =  3
   end
   alias X__DarwinTimeT = LibC::Long
   alias TimeT = X__DarwinTimeT
+
   struct OInfoTMetaSize
     obj : IhInfoT
     attr : IhInfoT
   end
+
   fun oopen = H5Oopen(loc_id : HidT, name : LibC::Char*, lapl_id : HidT) : HidT
   fun oopen_by_addr = H5Oopen_by_addr(loc_id : HidT, addr : HaddrT) : HidT
   fun oopen_by_idx = H5Oopen_by_idx(loc_id : HidT, group_name : LibC::Char*, idx_type : IndexT, order : IterOrderT, n : HsizeT, lapl_id : HidT) : HidT
@@ -661,12 +711,14 @@ lib LibHdf5
   fun odisable_mdc_flushes = H5Odisable_mdc_flushes(object_id : HidT) : HerrT
   fun oenable_mdc_flushes = H5Oenable_mdc_flushes(object_id : HidT) : HerrT
   fun oare_mdc_flushes_disabled = H5Oare_mdc_flushes_disabled(object_id : HidT, are_disabled : HboolT*) : HerrT
+
   struct OStatT
     size : HsizeT
     free : HsizeT
     nmesgs : LibC::UInt
     nchunks : LibC::UInt
   end
+
   fun acreate2 = H5Acreate2(loc_id : HidT, attr_name : LibC::Char*, type_id : HidT, space_id : HidT, acpl_id : HidT, aapl_id : HidT) : HidT
   fun acreate_by_name = H5Acreate_by_name(loc_id : HidT, obj_name : LibC::Char*, attr_name : LibC::Char*, type_id : HidT, space_id : HidT, acpl_id : HidT, aapl_id : HidT, lapl_id : HidT) : HidT
   fun aopen = H5Aopen(obj_id : HidT, attr_name : LibC::Char*, aapl_id : HidT) : HidT
@@ -682,12 +734,14 @@ lib LibHdf5
   fun aget_name_by_idx = H5Aget_name_by_idx(loc_id : HidT, obj_name : LibC::Char*, idx_type : IndexT, order : IterOrderT, n : HsizeT, name : LibC::Char*, size : LibC::SizeT, lapl_id : HidT) : SsizeT
   fun aget_storage_size = H5Aget_storage_size(attr_id : HidT) : HsizeT
   fun aget_info = H5Aget_info(attr_id : HidT, ainfo : AInfoT*) : HerrT
+
   struct AInfoT
     corder_valid : HboolT
     corder : OMsgCrtIdxT
     cset : TCsetT
     data_size : HsizeT
   end
+
   alias Uint32T = LibC::UInt
   alias OMsgCrtIdxT = Uint32T
   fun aget_info_by_name = H5Aget_info_by_name(loc_id : HidT, obj_name : LibC::Char*, attr_name : LibC::Char*, ainfo : AInfoT*, lapl_id : HidT) : HerrT
@@ -708,6 +762,7 @@ lib LibHdf5
   fun aget_num_attrs = H5Aget_num_attrs(loc_id : HidT) : LibC::Int
   fun aiterate1 = H5Aiterate1(loc_id : HidT, attr_num : LibC::UInt*, op : AOperator1T, op_data : Void*) : HerrT
   alias AOperator1T = (HidT, LibC::Char*, Void* -> HerrT)
+
   struct AcCacheConfigT
     version : LibC::Int
     rpt_fcn_enabled : HboolT
@@ -740,26 +795,29 @@ lib LibHdf5
     dirty_bytes_threshold : LibC::SizeT
     metadata_write_strategy : LibC::Int
   end
+
   enum CCacheIncrMode
-    CIncrOff = 0
+    CIncrOff       = 0
     CIncrThreshold = 1
   end
   enum CCacheFlashIncrMode
-    CFlashIncrOff = 0
+    CFlashIncrOff      = 0
     CFlashIncrAddSpace = 1
   end
   enum CCacheDecrMode
-    CDecrOff = 0
-    CDecrThreshold = 1
-    CDecrAgeOut = 2
+    CDecrOff                 = 0
+    CDecrThreshold           = 1
+    CDecrAgeOut              = 2
     CDecrAgeOutWithThreshold = 3
   end
+
   struct AcCacheImageConfigT
     version : LibC::Int
     generate_image : HboolT
     save_resize_status : HboolT
     entry_ageout : LibC::Int
   end
+
   fun dcreate2 = H5Dcreate2(loc_id : HidT, name : LibC::Char*, type_id : HidT, space_id : HidT, lcpl_id : HidT, dcpl_id : HidT, dapl_id : HidT) : HidT
   fun dcreate_anon = H5Dcreate_anon(file_id : HidT, type_id : HidT, space_id : HidT, plist_id : HidT, dapl_id : HidT) : HidT
   fun dopen2 = H5Dopen2(file_id : HidT, name : LibC::Char*, dapl_id : HidT) : HidT
@@ -767,10 +825,10 @@ lib LibHdf5
   fun dget_space = H5Dget_space(dset_id : HidT) : HidT
   fun dget_space_status = H5Dget_space_status(dset_id : HidT, allocation : DSpaceStatusT*) : HerrT
   enum DSpaceStatusT
-    DSpaceStatusError = -1
-    DSpaceStatusNotAllocated = 0
-    DSpaceStatusPartAllocated = 1
-    DSpaceStatusAllocated = 2
+    DSpaceStatusError         = -1
+    DSpaceStatusNotAllocated  =  0
+    DSpaceStatusPartAllocated =  1
+    DSpaceStatusAllocated     =  2
   end
   fun dget_type = H5Dget_type(dset_id : HidT) : HidT
   fun dget_create_plist = H5Dget_create_plist(dset_id : HidT) : HidT
@@ -795,17 +853,18 @@ lib LibHdf5
   fun dformat_convert = H5Dformat_convert(dset_id : HidT) : HerrT
   fun dget_chunk_index_type = H5Dget_chunk_index_type(did : HidT, idx_type : DChunkIndexT*) : HerrT
   enum DChunkIndexT
-    DChunkIdxBtree = 0
+    DChunkIdxBtree  = 0
     DChunkIdxSingle = 1
-    DChunkIdxNone = 2
+    DChunkIdxNone   = 2
     DChunkIdxFarray = 3
     DChunkIdxEarray = 4
-    DChunkIdxBt2 = 5
+    DChunkIdxBt2    = 5
     DChunkIdxNtypes = 6
   end
   fun dcreate1 = H5Dcreate1(file_id : HidT, name : LibC::Char*, type_id : HidT, space_id : HidT, dcpl_id : HidT) : HidT
   fun dopen1 = H5Dopen1(file_id : HidT, name : LibC::Char*) : HidT
   fun dextend = H5Dextend(dset_id : HidT, size : HsizeT*) : HerrT
+
   struct EError2T
     cls_id : HidT
     maj_num : HidT
@@ -815,6 +874,7 @@ lib LibHdf5
     file_name : LibC::Char*
     desc : LibC::Char*
   end
+
   fun eregister_class = H5Eregister_class(cls_name : LibC::Char*, lib_name : LibC::Char*, version : LibC::Char*) : HidT
   fun eunregister_class = H5Eunregister_class(class_id : HidT) : HerrT
   fun eclose_msg = H5Eclose_msg(err_id : HidT) : HerrT
@@ -831,6 +891,7 @@ lib LibHdf5
   fun epush2 = H5Epush2(err_stack : HidT, file : LibC::Char*, func : LibC::Char*, line : LibC::UInt, cls_id : HidT, maj_id : HidT, min_id : HidT, msg : LibC::Char*, ...) : HerrT
   fun epop = H5Epop(err_stack : HidT, count : LibC::SizeT) : HerrT
   fun eprint2 = H5Eprint2(err_stack : HidT, stream : File*) : HerrT
+
   struct X__SFile
     _p : UInt8*
     _r : LibC::Int
@@ -853,18 +914,21 @@ lib LibHdf5
     _blksize : LibC::Int
     _offset : FposT
   end
+
   type File = X__SFile
+
   struct X__Sbuf
     _base : UInt8*
     _size : LibC::Int
   end
+
   alias X__Int64T = LibC::LongLong
   alias X__DarwinOffT = X__Int64T
   alias FposT = X__DarwinOffT
   alias X__SFilex = Void
   fun ewalk2 = H5Ewalk2(err_stack : HidT, direction : EDirectionT, func : EWalk2T, client_data : Void*) : HerrT
   enum EDirectionT
-    EWalkUpward = 0
+    EWalkUpward   = 0
     EWalkDownward = 1
   end
   alias EWalk2T = (LibC::UInt, EError2T*, Void* -> HerrT)
@@ -875,6 +939,7 @@ lib LibHdf5
   fun eauto_is_v2 = H5Eauto_is_v2(err_stack : HidT, is_stack : LibC::UInt*) : HerrT
   fun eget_msg = H5Eget_msg(msg_id : HidT, type : ETypeT*, msg : LibC::Char*, size : LibC::SizeT) : SsizeT
   fun eget_num = H5Eget_num(error_stack_id : HidT) : SsizeT
+
   struct EError1T
     maj_num : EMajorT
     min_num : EMinorT
@@ -883,6 +948,7 @@ lib LibHdf5
     line : LibC::UInt
     desc : LibC::Char*
   end
+
   alias EMajorT = HidT
   alias EMinorT = HidT
   fun eclear1 = H5Eclear1 : HerrT
@@ -895,41 +961,48 @@ lib LibHdf5
   alias EWalk1T = (LibC::Int, EError1T*, Void* -> HerrT)
   fun eget_major = H5Eget_major(maj : EMajorT) : LibC::Char*
   fun eget_minor = H5Eget_minor(min : EMinorT) : LibC::Char*
+
   struct FInfo2T
     super : FInfo2TSuper
     free : FInfo2TFree
     sohm : FInfo2TSohm
   end
+
   struct FInfo2TSuper
     version : LibC::UInt
     super_size : HsizeT
     super_ext_size : HsizeT
   end
+
   struct FInfo2TFree
     version : LibC::UInt
     meta_size : HsizeT
     tot_space : HsizeT
   end
+
   struct FInfo2TSohm
     version : LibC::UInt
     hdr_size : HsizeT
     msgs_info : IhInfoT
   end
+
   struct FSectInfoT
     addr : HaddrT
     size : HsizeT
   end
+
   struct FRetryInfoT
     nbins : LibC::UInt
     retries : Uint32T*[21]
   end
+
   fun fis_hdf5 = H5Fis_hdf5(filename : LibC::Char*) : HtriT
   fun fcreate = H5Fcreate(filename : LibC::Char*, flags : LibC::UInt, create_plist : HidT, access_plist : HidT) : HidT
   fun fopen = H5Fopen(filename : LibC::Char*, flags : LibC::UInt, access_plist : HidT) : HidT
   fun freopen = H5Freopen(file_id : HidT) : HidT
   fun fflush = H5Fflush(object_id : HidT, scope : FScopeT) : HerrT
   enum FScopeT
-    FScopeLocal = 0
+    FScopeLocal  = 0
     FScopeGlobal = 1
   end
   fun fclose = H5Fclose(file_id : HidT) : HerrT
@@ -956,15 +1029,15 @@ lib LibHdf5
   fun fstart_swmr_write = H5Fstart_swmr_write(file_id : HidT) : HerrT
   fun fget_free_sections = H5Fget_free_sections(file_id : HidT, type : FMemT, nsects : LibC::SizeT, sect_info : FSectInfoT*) : SsizeT
   enum FMemT
-    FdMemNolist = -1
-    FdMemDefault = 0
-    FdMemSuper = 1
-    FdMemBtree = 2
-    FdMemDraw = 3
-    FdMemGheap = 4
-    FdMemLheap = 5
-    FdMemOhdr = 6
-    FdMemNtypes = 7
+    FdMemNolist  = -1
+    FdMemDefault =  0
+    FdMemSuper   =  1
+    FdMemBtree   =  2
+    FdMemDraw    =  3
+    FdMemGheap   =  4
+    FdMemLheap   =  5
+    FdMemOhdr    =  6
+    FdMemNtypes  =  7
   end
   fun fclear_elink_file_cache = H5Fclear_elink_file_cache(file_id : HidT) : HerrT
   fun fset_latest_format = H5Fset_latest_format(file_id : HidT, latest_format : HboolT) : HerrT
@@ -975,15 +1048,19 @@ lib LibHdf5
   fun freset_page_buffering_stats = H5Freset_page_buffering_stats(file_id : HidT) : HerrT
   fun fget_page_buffering_stats = H5Fget_page_buffering_stats(file_id : HidT, accesses : LibC::UInt[2], hits : LibC::UInt[2], misses : LibC::UInt[2], evictions : LibC::UInt[2], bypasses : LibC::UInt[2]) : HerrT
   fun fget_mdc_image_info = H5Fget_mdc_image_info(file_id : HidT, image_addr : HaddrT*, image_size : HsizeT*) : HerrT
+
   struct FInfo1T
     super_ext_size : HsizeT
     sohm : FInfo1TSohm
   end
+
   struct FInfo1TSohm
     hdr_size : HsizeT
     msgs_info : IhInfoT
   end
+
   fun fget_info1 = H5Fget_info1(obj_id : HidT, finfo : FInfo1T*) : HerrT
+
   struct FdT
     driver_id : HidT
     cls : FdClassT*
@@ -996,11 +1073,12 @@ lib LibHdf5
     alignment : HsizeT
     paged_aggr : HboolT
   end
+
   struct FdClassT
     name : LibC::Char*
     maxaddr : HaddrT
     fc_degree : FCloseDegreeT
-    terminate : ( -> HerrT)
+    terminate : (-> HerrT)
     sb_size : (FdT* -> HsizeT)
     sb_encode : (FdT*, LibC::Char*, UInt8* -> HerrT)
     sb_decode : (FdT*, LibC::Char*, UInt8* -> HerrT)
@@ -1030,26 +1108,29 @@ lib LibHdf5
     unlock : (FdT* -> HerrT)
     fl_map : FdMemT[7]
   end
+
   enum FCloseDegreeT
     FCloseDefault = 0
-    FCloseWeak = 1
-    FCloseSemi = 2
-    FCloseStrong = 3
+    FCloseWeak    = 1
+    FCloseSemi    = 2
+    FCloseStrong  = 3
   end
   type FdMemT = FMemT
+
   struct FdFreeT
     addr : HaddrT
     size : HsizeT
     next : FdFreeT*
   end
-  FdFileImageOpNoOp = 0
-  FdFileImageOpPropertyListSet = 1
-  FdFileImageOpPropertyListCopy = 2
-  FdFileImageOpPropertyListGet = 3
+
+  FdFileImageOpNoOp              = 0
+  FdFileImageOpPropertyListSet   = 1
+  FdFileImageOpPropertyListCopy  = 2
+  FdFileImageOpPropertyListGet   = 3
   FdFileImageOpPropertyListClose = 4
-  FdFileImageOpFileOpen = 5
-  FdFileImageOpFileResize = 6
-  FdFileImageOpFileClose = 7
+  FdFileImageOpFileOpen          = 5
+  FdFileImageOpFileResize        = 6
+  FdFileImageOpFileClose         = 7
   fun f_dregister = H5FDregister(cls : FdClassT*) : HidT
   fun f_dunregister = H5FDunregister(driver_id : HidT) : HerrT
   fun f_dopen = H5FDopen(name : LibC::Char*, flags : LibC::UInt, fapl_id : HidT, maxaddr : HaddrT) : FdT*
@@ -1068,17 +1149,19 @@ lib LibHdf5
   fun f_dtruncate = H5FDtruncate(file : FdT*, dxpl_id : HidT, closing : HboolT) : HerrT
   fun f_dlock = H5FDlock(file : FdT*, rw : HboolT) : HerrT
   fun f_dunlock = H5FDunlock(file : FdT*) : HerrT
+
   struct GInfoT
     storage_type : GStorageTypeT
     nlinks : HsizeT
     max_corder : Int64T
     mounted : HboolT
   end
+
   enum GStorageTypeT
-    GStorageTypeUnknown = -1
-    GStorageTypeSymbolTable = 0
-    GStorageTypeCompact = 1
-    GStorageTypeDense = 2
+    GStorageTypeUnknown     = -1
+    GStorageTypeSymbolTable =  0
+    GStorageTypeCompact     =  1
+    GStorageTypeDense       =  2
   end
   fun gcreate2 = H5Gcreate2(loc_id : HidT, name : LibC::Char*, lcpl_id : HidT, gcpl_id : HidT, gapl_id : HidT) : HidT
   fun gcreate_anon = H5Gcreate_anon(loc_id : HidT, gcpl_id : HidT, gapl_id : HidT) : HidT
@@ -1090,6 +1173,7 @@ lib LibHdf5
   fun gclose = H5Gclose(group_id : HidT) : HerrT
   fun gflush = H5Gflush(group_id : HidT) : HerrT
   fun grefresh = H5Grefresh(group_id : HidT) : HerrT
+
   struct GStatT
     fileno : LibC::ULong[2]
     objno : LibC::ULong[2]
@@ -1099,16 +1183,17 @@ lib LibHdf5
     linklen : LibC::SizeT
     ohdr : OStatT
   end
+
   enum GObjT
-    GUnknown = -1
-    GGroup = 0
-    GDataset = 1
-    GType = 2
-    GLink = 3
-    GUdlink = 4
-    GReserved5 = 5
-    GReserved6 = 6
-    GReserved7 = 7
+    GUnknown   = -1
+    GGroup     =  0
+    GDataset   =  1
+    GType      =  2
+    GLink      =  3
+    GUdlink    =  4
+    GReserved5 =  5
+    GReserved6 =  6
+    GReserved7 =  7
   end
   fun gcreate1 = H5Gcreate1(loc_id : HidT, name : LibC::Char*, size_hint : LibC::SizeT) : HidT
   fun gopen1 = H5Gopen1(loc_id : HidT, name : LibC::Char*) : HidT
@@ -1126,18 +1211,21 @@ lib LibHdf5
   fun gget_objinfo = H5Gget_objinfo(loc_id : HidT, name : LibC::Char*, follow_link : HboolT, statbuf : GStatT*) : HerrT
   fun gget_objname_by_idx = H5Gget_objname_by_idx(loc_id : HidT, idx : HsizeT, name : LibC::Char*, size : LibC::SizeT) : SsizeT
   fun gget_objtype_by_idx = H5Gget_objtype_by_idx(loc_id : HidT, idx : HsizeT) : GObjT
+
   struct ZCbT
     func : ZFilterFuncT
     op_data : Void*
   end
+
   alias ZFilterT = LibC::Int
   enum ZCbReturnT
     ZCbError = -1
-    ZCbFail = 0
-    ZCbCont = 1
-    ZCbNo = 2
+    ZCbFail  =  0
+    ZCbCont  =  1
+    ZCbNo    =  2
   end
   alias ZFilterFuncT = (ZFilterT, Void*, LibC::SizeT, Void* -> ZCbReturnT)
+
   struct ZClass2T
     version : LibC::Int
     id : ZFilterT
@@ -1148,6 +1236,7 @@ lib LibHdf5
     set_local : ZSetLocalFuncT
     filter : ZFuncT
   end
+
   alias ZCanApplyFuncT = (HidT, HidT, HidT -> HtriT)
   alias ZSetLocalFuncT = (HidT, HidT, HidT -> HerrT)
   alias ZFuncT = (LibC::UInt, LibC::SizeT, LibC::UInt*, LibC::SizeT, LibC::SizeT*, Void** -> LibC::SizeT)
@@ -1155,6 +1244,7 @@ lib LibHdf5
   fun zunregister = H5Zunregister(id : ZFilterT) : HerrT
   fun zfilter_avail = H5Zfilter_avail(id : ZFilterT) : HtriT
   fun zget_filter_info = H5Zget_filter_info(filter : ZFilterT, filter_config_flags : LibC::UInt*) : HerrT
+
   struct ZClass1T
     id : ZFilterT
     name : LibC::Char*
@@ -1162,6 +1252,7 @@ lib LibHdf5
     set_local : ZSetLocalFuncT
     filter : ZFuncT
   end
+
   fun pcreate_class = H5Pcreate_class(parent : HidT, name : LibC::Char*, cls_create : PClsCreateFuncT, create_data : Void*, cls_copy : PClsCopyFuncT, copy_data : Void*, cls_close : PClsCloseFuncT, close_data : Void*) : HidT
   alias PClsCreateFuncT = (HidT, Void* -> HerrT)
   alias PClsCopyFuncT = (HidT, HidT, Void* -> HerrT)
@@ -1230,10 +1321,10 @@ lib LibHdf5
   fun pset_file_space_strategy = H5Pset_file_space_strategy(plist_id : HidT, strategy : FFspaceStrategyT, persist : HboolT, threshold : HsizeT) : HerrT
   enum FFspaceStrategyT
     FFspaceStrategyFsmAggr = 0
-    FFspaceStrategyPage = 1
-    FFspaceStrategyAggr = 2
-    FFspaceStrategyNone = 3
-    FFspaceStrategyNtypes = 4
+    FFspaceStrategyPage    = 1
+    FFspaceStrategyAggr    = 2
+    FFspaceStrategyNone    = 3
+    FFspaceStrategyNtypes  = 4
   end
   fun pget_file_space_strategy = H5Pget_file_space_strategy(plist_id : HidT, strategy : FFspaceStrategyT*, persist : HboolT*, threshold : HsizeT*) : HerrT
   fun pset_file_space_page_size = H5Pset_file_space_page_size(plist_id : HidT, fsp_size : HsizeT) : HerrT
@@ -1264,7 +1355,7 @@ lib LibHdf5
   fun pset_libver_bounds = H5Pset_libver_bounds(plist_id : HidT, low : FLibverT, high : FLibverT) : HerrT
   enum FLibverT
     FLibverEarliest = 0
-    FLibverLatest = 1
+    FLibverLatest   = 1
   end
   fun pget_libver_bounds = H5Pget_libver_bounds(plist_id : HidT, low : FLibverT*, high : FLibverT*) : HerrT
   fun pset_elink_file_cache_size = H5Pset_elink_file_cache_size(plist_id : HidT, efc_size : LibC::UInt) : HerrT
@@ -1272,6 +1363,7 @@ lib LibHdf5
   fun pset_file_image = H5Pset_file_image(fapl_id : HidT, buf_ptr : Void*, buf_len : LibC::SizeT) : HerrT
   fun pget_file_image = H5Pget_file_image(fapl_id : HidT, buf_ptr_ptr : Void**, buf_len_ptr : LibC::SizeT*) : HerrT
   fun pset_file_image_callbacks = H5Pset_file_image_callbacks(fapl_id : HidT, callbacks_ptr : FdFileImageCallbacksT*) : HerrT
+
   struct FdFileImageCallbacksT
     image_malloc : (LibC::SizeT, FdFileImageOpT, Void* -> Void*)
     image_memcpy : (Void*, Void*, LibC::SizeT, FdFileImageOpT, Void* -> Void*)
@@ -1281,15 +1373,16 @@ lib LibHdf5
     udata_free : (Void* -> HerrT)
     udata : Void*
   end
+
   enum FdFileImageOpT
-    FdFileImageOpNoOp = 0
-    FdFileImageOpPropertyListSet = 1
-    FdFileImageOpPropertyListCopy = 2
-    FdFileImageOpPropertyListGet = 3
+    FdFileImageOpNoOp              = 0
+    FdFileImageOpPropertyListSet   = 1
+    FdFileImageOpPropertyListCopy  = 2
+    FdFileImageOpPropertyListGet   = 3
     FdFileImageOpPropertyListClose = 4
-    FdFileImageOpFileOpen = 5
-    FdFileImageOpFileResize = 6
-    FdFileImageOpFileClose = 7
+    FdFileImageOpFileOpen          = 5
+    FdFileImageOpFileResize        = 6
+    FdFileImageOpFileClose         = 7
   end
   fun pget_file_image_callbacks = H5Pget_file_image_callbacks(fapl_id : HidT, callbacks_ptr : FdFileImageCallbacksT*) : HerrT
   fun pset_core_write_tracking = H5Pset_core_write_tracking(fapl_id : HidT, is_enabled : HboolT, page_size : LibC::SizeT) : HerrT
@@ -1310,11 +1403,11 @@ lib LibHdf5
   fun pset_layout = H5Pset_layout(plist_id : HidT, layout : DLayoutT) : HerrT
   enum DLayoutT
     DLayoutError = -1
-    DCompact = 0
-    DContiguous = 1
-    DChunked = 2
-    DVirtual = 3
-    DNlayouts = 4
+    DCompact     =  0
+    DContiguous  =  1
+    DChunked     =  2
+    DVirtual     =  3
+    DNlayouts    =  4
   end
   fun pget_layout = H5Pget_layout(plist_id : HidT) : DLayoutT
   fun pset_chunk = H5Pset_chunk(plist_id : HidT, ndims : LibC::Int, dim : HsizeT*) : HerrT
@@ -1338,41 +1431,41 @@ lib LibHdf5
   enum ZSoScaleTypeT
     ZSoFloatDscale = 0
     ZSoFloatEscale = 1
-    ZSoInt = 2
+    ZSoInt         = 2
   end
   fun pset_fill_value = H5Pset_fill_value(plist_id : HidT, type_id : HidT, value : Void*) : HerrT
   fun pget_fill_value = H5Pget_fill_value(plist_id : HidT, type_id : HidT, value : Void*) : HerrT
   fun pfill_value_defined = H5Pfill_value_defined(plist : HidT, status : DFillValueT*) : HerrT
   enum DFillValueT
-    DFillValueError = -1
-    DFillValueUndefined = 0
-    DFillValueDefault = 1
-    DFillValueUserDefined = 2
+    DFillValueError       = -1
+    DFillValueUndefined   =  0
+    DFillValueDefault     =  1
+    DFillValueUserDefined =  2
   end
   fun pset_alloc_time = H5Pset_alloc_time(plist_id : HidT, alloc_time : DAllocTimeT) : HerrT
   enum DAllocTimeT
-    DAllocTimeError = -1
-    DAllocTimeDefault = 0
-    DAllocTimeEarly = 1
-    DAllocTimeLate = 2
-    DAllocTimeIncr = 3
+    DAllocTimeError   = -1
+    DAllocTimeDefault =  0
+    DAllocTimeEarly   =  1
+    DAllocTimeLate    =  2
+    DAllocTimeIncr    =  3
   end
   fun pget_alloc_time = H5Pget_alloc_time(plist_id : HidT, alloc_time : DAllocTimeT*) : HerrT
   fun pset_fill_time = H5Pset_fill_time(plist_id : HidT, fill_time : DFillTimeT) : HerrT
   enum DFillTimeT
     DFillTimeError = -1
-    DFillTimeAlloc = 0
-    DFillTimeNever = 1
-    DFillTimeIfset = 2
+    DFillTimeAlloc =  0
+    DFillTimeNever =  1
+    DFillTimeIfset =  2
   end
   fun pget_fill_time = H5Pget_fill_time(plist_id : HidT, fill_time : DFillTimeT*) : HerrT
   fun pset_chunk_cache = H5Pset_chunk_cache(dapl_id : HidT, rdcc_nslots : LibC::SizeT, rdcc_nbytes : LibC::SizeT, rdcc_w0 : LibC::Double) : HerrT
   fun pget_chunk_cache = H5Pget_chunk_cache(dapl_id : HidT, rdcc_nslots : LibC::SizeT*, rdcc_nbytes : LibC::SizeT*, rdcc_w0 : LibC::Double*) : HerrT
   fun pset_virtual_view = H5Pset_virtual_view(plist_id : HidT, view : DVdsViewT) : HerrT
   enum DVdsViewT
-    DVdsError = -1
-    DVdsFirstMissing = 0
-    DVdsLastAvailable = 1
+    DVdsError         = -1
+    DVdsFirstMissing  =  0
+    DVdsLastAvailable =  1
   end
   fun pget_virtual_view = H5Pget_virtual_view(plist_id : HidT, view : DVdsViewT*) : HerrT
   fun pset_virtual_printf_gap = H5Pset_virtual_printf_gap(plist_id : HidT, gap_size : HsizeT) : HerrT
@@ -1390,10 +1483,10 @@ lib LibHdf5
   fun pget_preserve = H5Pget_preserve(plist_id : HidT) : LibC::Int
   fun pset_edc_check = H5Pset_edc_check(plist_id : HidT, check : ZEdcT) : HerrT
   enum ZEdcT
-    ZErrorEdc = -1
-    ZDisableEdc = 0
-    ZEnableEdc = 1
-    ZNoEdc = 2
+    ZErrorEdc   = -1
+    ZDisableEdc =  0
+    ZEnableEdc  =  1
+    ZNoEdc      =  2
   end
   fun pget_edc_check = H5Pget_edc_check(plist_id : HidT) : ZEdcT
   fun pset_filter_callback = H5Pset_filter_callback(plist_id : HidT, func : ZFilterFuncT, op_data : Void*) : HerrT
@@ -1407,18 +1500,18 @@ lib LibHdf5
   fun pget_hyper_vector_size = H5Pget_hyper_vector_size(fapl_id : HidT, size : LibC::SizeT*) : HerrT
   fun pset_type_conv_cb = H5Pset_type_conv_cb(dxpl_id : HidT, op : TConvExceptFuncT, operate_data : Void*) : HerrT
   enum TConvExceptT
-    TConvExceptRangeHi = 0
-    TConvExceptRangeLow = 1
+    TConvExceptRangeHi   = 0
+    TConvExceptRangeLow  = 1
     TConvExceptPrecision = 2
-    TConvExceptTruncate = 3
-    TConvExceptPinf = 4
-    TConvExceptNinf = 5
-    TConvExceptNan = 6
+    TConvExceptTruncate  = 3
+    TConvExceptPinf      = 4
+    TConvExceptNinf      = 5
+    TConvExceptNan       = 6
   end
   enum TConvRetT
-    TConvAbort = -1
-    TConvUnhandled = 0
-    TConvHandled = 1
+    TConvAbort     = -1
+    TConvUnhandled =  0
+    TConvHandled   =  1
   end
   alias TConvExceptFuncT = (TConvExceptT, HidT, HidT, Void*, Void*, Void* -> TConvRetT)
   fun pget_type_conv_cb = H5Pget_type_conv_cb(dxpl_id : HidT, op : TConvExceptFuncT*, operate_data : Void**) : HerrT
@@ -1452,8 +1545,8 @@ lib LibHdf5
   fun pset_mcdt_search_cb = H5Pset_mcdt_search_cb(plist_id : HidT, func : OMcdtSearchCbT, op_data : Void*) : HerrT
   enum OMcdtSearchRetT
     OMcdtSearchError = -1
-    OMcdtSearchCont = 0
-    OMcdtSearchStop = 1
+    OMcdtSearchCont  =  0
+    OMcdtSearchStop  =  1
   end
   alias OMcdtSearchCbT = (Void* -> OMcdtSearchRetT)
   fun pget_mcdt_search_cb = H5Pget_mcdt_search_cb(plist_id : HidT, func : OMcdtSearchCbT*, op_data : Void**) : HerrT
@@ -1464,12 +1557,12 @@ lib LibHdf5
   fun pget_version = H5Pget_version(plist_id : HidT, boot : LibC::UInt*, freelist : LibC::UInt*, stab : LibC::UInt*, shhdr : LibC::UInt*) : HerrT
   fun pset_file_space = H5Pset_file_space(plist_id : HidT, strategy : FFileSpaceTypeT, threshold : HsizeT) : HerrT
   enum FFileSpaceTypeT
-    FFileSpaceDefault = 0
+    FFileSpaceDefault    = 0
     FFileSpaceAllPersist = 1
-    FFileSpaceAll = 2
-    FFileSpaceAggrVfd = 3
-    FFileSpaceVfd = 4
-    FFileSpaceNtypes = 5
+    FFileSpaceAll        = 2
+    FFileSpaceAggrVfd    = 3
+    FFileSpaceVfd        = 4
+    FFileSpaceNtypes     = 5
   end
   fun pget_file_space = H5Pget_file_space(plist_id : HidT, strategy : FFileSpaceTypeT*, threshold : HsizeT*) : HerrT
   fun p_lset_loading_state = H5PLset_loading_state(plugin_type : LibC::UInt) : HerrT
@@ -1481,16 +1574,16 @@ lib LibHdf5
   fun p_lremove = H5PLremove(index : LibC::UInt) : HerrT
   fun p_lget = H5PLget(index : LibC::UInt, pathname : LibC::Char*, size : LibC::SizeT) : SsizeT
   fun p_lsize = H5PLsize(listsize : LibC::UInt*) : HerrT
-  RBadtype = -1
-  RObject = 0
-  RDatasetRegion = 1
-  RMaxtype = 2
+  RBadtype       = -1
+  RObject        =  0
+  RDatasetRegion =  1
+  RMaxtype       =  2
   fun rcreate = H5Rcreate(ref : Void*, loc_id : HidT, name : LibC::Char*, ref_type : RTypeT, space_id : HidT) : HerrT
   enum RTypeT
-    RBadtype = -1
-    RObject = 0
-    RDatasetRegion = 1
-    RMaxtype = 2
+    RBadtype       = -1
+    RObject        =  0
+    RDatasetRegion =  1
+    RMaxtype       =  2
   end
   fun rdereference2 = H5Rdereference2(obj_id : HidT, oapl_id : HidT, ref_type : RTypeT, ref : Void*) : HidT
   fun rget_region = H5Rget_region(dataset : HidT, ref_type : RTypeT, ref : Void*) : HidT
@@ -1498,18 +1591,18 @@ lib LibHdf5
   fun rget_name = H5Rget_name(loc_id : HidT, ref_type : RTypeT, ref : Void*, name : LibC::Char*, size : LibC::SizeT) : SsizeT
   fun rget_obj_type1 = H5Rget_obj_type1(id : HidT, ref_type : RTypeT, _ref : Void*) : GObjT
   fun rdereference1 = H5Rdereference1(obj_id : HidT, ref_type : RTypeT, ref : Void*) : HidT
-  SSelError = -1
-  SSelNone = 0
-  SSelPoints = 1
-  SSelHyperslabs = 2
-  SSelAll = 3
-  SSelN = 4
+  SSelError      = -1
+  SSelNone       =  0
+  SSelPoints     =  1
+  SSelHyperslabs =  2
+  SSelAll        =  3
+  SSelN          =  4
   fun screate = H5Screate(type : SClassT) : HidT
   enum SClassT
     SNoClass = -1
-    SScalar = 0
-    SSimple = 1
-    SNull = 2
+    SScalar  =  0
+    SSimple  =  1
+    SNull    =  2
   end
   fun screate_simple = H5Screate_simple(rank : LibC::Int, dims : HsizeT*, maxdims : HsizeT*) : HidT
   fun sset_extent_simple = H5Sset_extent_simple(space_id : HidT, rank : LibC::Int, dims : HsizeT*, max : HsizeT*) : HerrT
@@ -1524,16 +1617,16 @@ lib LibHdf5
   fun sget_select_npoints = H5Sget_select_npoints(spaceid : HidT) : HssizeT
   fun sselect_hyperslab = H5Sselect_hyperslab(space_id : HidT, op : SSeloperT, start : HsizeT*, _stride : HsizeT*, count : HsizeT*, _block : HsizeT*) : HerrT
   enum SSeloperT
-    SSelectNoop = -1
-    SSelectSet = 0
-    SSelectOr = 1
-    SSelectAnd = 2
-    SSelectXor = 3
-    SSelectNotb = 4
-    SSelectNota = 5
-    SSelectAppend = 6
-    SSelectPrepend = 7
-    SSelectInvalid = 8
+    SSelectNoop    = -1
+    SSelectSet     =  0
+    SSelectOr      =  1
+    SSelectAnd     =  2
+    SSelectXor     =  3
+    SSelectNotb    =  4
+    SSelectNota    =  5
+    SSelectAppend  =  6
+    SSelectPrepend =  7
+    SSelectInvalid =  8
   end
   fun sselect_elements = H5Sselect_elements(space_id : HidT, op : SSeloperT, num_elem : LibC::SizeT, coord : HsizeT*) : HerrT
   fun sget_simple_extent_type = H5Sget_simple_extent_type(space_id : HidT) : SClassT
@@ -1553,12 +1646,12 @@ lib LibHdf5
   fun sget_select_bounds = H5Sget_select_bounds(spaceid : HidT, start : HsizeT*, _end : HsizeT*) : HerrT
   fun sget_select_type = H5Sget_select_type(spaceid : HidT) : SSelType
   enum SSelType
-    SSelError = -1
-    SSelNone = 0
-    SSelPoints = 1
-    SSelHyperslabs = 2
-    SSelAll = 3
-    SSelN = 4
+    SSelError      = -1
+    SSelNone       =  0
+    SSelPoints     =  1
+    SSelHyperslabs =  2
+    SSelAll        =  3
+    SSelN          =  4
   end
   fun fd_core_init = H5FD_core_init : HidT
   fun pset_fapl_core = H5Pset_fapl_core(fapl_id : HidT, increment : LibC::SizeT, backing_store : HboolT) : HerrT
@@ -1638,10 +1731,10 @@ lib LibHdf5
   fun l_ttext_to_dtype = H5LTtext_to_dtype(text : LibC::Char*, lang_type : LtLangT) : HidT
   enum LtLangT
     LtLangErr = -1
-    LtDdl = 0
-    LtC = 1
-    LtFortran = 2
-    LtNoLang = 3
+    LtDdl     =  0
+    LtC       =  1
+    LtFortran =  2
+    LtNoLang  =  3
   end
   fun l_tdtype_to_text = H5LTdtype_to_text(dtype : HidT, str : LibC::Char*, lang_type : LtLangT, len : LibC::SizeT*) : HerrT
   fun l_tfind_attribute = H5LTfind_attribute(loc_id : HidT, name : LibC::Char*) : HerrT
@@ -1980,4 +2073,3 @@ lib LibHdf5
   $p_lst_link_create_id_g = P_LST_LINK_CREATE_ID_g : HidT
   $p_lst_link_access_id_g = P_LST_LINK_ACCESS_ID_g : HidT
 end
-
